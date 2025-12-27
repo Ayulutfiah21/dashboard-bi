@@ -1,0 +1,11 @@
+# config.toml - Tema EraPhone Red Premium
+[theme]
+primaryColor = "#E30613"      # Merah EraPhone utama
+backgroundColor = "#FFFFFF"   # Putih bersih
+secondaryBackgroundColor = "#F8F8F8"  # Abu-abu sangat muda
+textColor = "#2C2C2C"        # Hitam premium
+font = "Montserrat"
+
+[[theme.fontFaces]]
+font = "Montserrat"
+urls = ["https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"]

@@ -1,0 +1,156 @@
+/* =============== ERA PHONE PREMIUM DASHBOARD =============== */
+.era-main-header {
+    background: linear-gradient(135deg, #E30613 0%, #B80510 100%);
+    padding: 2.5rem;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 0 15px 40px rgba(227, 6, 19, 0.2);
+    margin-bottom: 2.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.era-main-header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #FFD700 0%, #FFC107 50%, #FFD700 100%);
+}
+
+.era-logo-badge {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-weight: 600;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.era-card {
+    background: white;
+    border-radius: 18px;
+    padding: 1.8rem;
+    box-shadow: 0 8px 30px rgba(227, 6, 19, 0.08);
+    border: 1px solid #F0F0F0;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.era-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #E30613 0%, #FF6B6B 100%);
+}
+
+.era-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(227, 6, 19, 0.12);
+    border-color: #FFE5E7;
+}
+
+.era-kpi-number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #E30613;
+    font-size: 2.2rem;
+    line-height: 1;
+    margin: 10px 0;
+}
+
+.era-red-badge {
+    display: inline-block;
+    padding: 6px 16px;
+    border-radius: 25px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.badge-critical { background: linear-gradient(135deg, #E30613 0%, #FF4757 100%); color: white; }
+.badge-high { background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%); color: white; }
+.badge-medium { background: linear-gradient(135deg, #FFD166 0%, #FFDE8A 100%); color: #8A6500; }
+.badge-achievement { background: linear-gradient(135deg, #00C36C 0%, #00E676 100%); color: white; }
+.badge-info { background: linear-gradient(135deg, #0066CC 0%, #0099FF 100%); color: white; }
+
+.era-action-card {
+    background: linear-gradient(135deg, #FFF5F5 0%, #FFFAFA 100%);
+    border-left: 4px solid #E30613;
+    padding: 1.2rem;
+    margin: 0.8rem 0;
+    border-radius: 12px;
+    border: 1px solid #FFE5E7;
+}
+
+.era-section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #2C2C2C;
+    padding-bottom: 15px;
+    border-bottom: 3px solid #E30613;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.era-section-title::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, #E30613 0%, #FF6B6B 100%);
+}
+
+.era-progress {
+    height: 8px;
+    background: #F0F0F0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.era-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #E30613 0%, #FF6B6B 100%);
+    border-radius: 4px;
+}
+
+.era-metric-highlight {
+    background: linear-gradient(135deg, rgba(227, 6, 19, 0.05) 0%, rgba(255, 107, 107, 0.05) 100%);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(227, 6, 19, 0.1);
+}
+
+.era-insight-box {
+    background: linear-gradient(135deg, #2C2C2C 0%, #1A1A1A 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: 1rem 0;
+}
+
+.era-feature-badge {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 8px 16px;
+    border-radius: 20px;
+    color: white;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
